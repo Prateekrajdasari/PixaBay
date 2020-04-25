@@ -29,7 +29,6 @@
 		3C0B098424544B8A00DC8BD4 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098324544B8A00DC8BD4 /* JSONHelper.swift */; };
 		3C0B098624544D7D00DC8BD4 /* ViewControlerLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098524544D7D00DC8BD4 /* ViewControlerLifeCycle.swift */; };
 		3C0B098824544F8E00DC8BD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098724544F8E00DC8BD4 /* Constants.swift */; };
-		3C0B098924544F8E00DC8BD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098724544F8E00DC8BD4 /* Constants.swift */; };
 		3C0B098B24544FD100DC8BD4 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098A24544FD100DC8BD4 /* ViewControllerTests.swift */; };
 		3C0B098C2454554A00DC8BD4 /* Apple.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B097F2454465A00DC8BD4 /* Apple.json */; };
 		E1A8AF0AF0391A713125CCAE /* Pods_PixaBayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C97E77B1F38B8708BD1A74C /* Pods_PixaBayApp.framework */; };
@@ -370,7 +369,6 @@
 				3C0B097D2454452900DC8BD4 /* ResponseModel+Stub.swift in Sources */,
 				3C0B096D245437D300DC8BD4 /* NetworkClientMock.swift in Sources */,
 				3C0B098624544D7D00DC8BD4 /* ViewControlerLifeCycle.swift in Sources */,
-				3C0B098924544F8E00DC8BD4 /* Constants.swift in Sources */,
 				3C0B098424544B8A00DC8BD4 /* JSONHelper.swift in Sources */,
 				3C0B098B24544FD100DC8BD4 /* ViewControllerTests.swift in Sources */,
 				3C0B09822454468000DC8BD4 /* ViewController+Stub.swift in Sources */,

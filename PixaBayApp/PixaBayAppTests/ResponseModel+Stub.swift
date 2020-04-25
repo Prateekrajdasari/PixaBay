@@ -6,6 +6,7 @@
 //  Copyright © 2020 Prateek Dasari. All rights reserved.
 //
 
+@testable import PixaBayApp
 import Foundation
 
 extension ResponseModel {

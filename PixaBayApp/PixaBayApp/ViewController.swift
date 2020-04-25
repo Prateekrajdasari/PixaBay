@@ -12,21 +12,21 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-      @IBOutlet private weak var collectionView: UICollectionView!
-      @IBOutlet private weak var searchBar: UISearchBar!
+    @IBOutlet private weak var collectionView: UICollectionView!
+    @IBOutlet private weak var searchBar: UISearchBar!
     
     var photos = [ResultModel]()
     var networkClient: NetworkClientAdapter = NetworkClient()
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
-      return .lightContent
+        return .lightContent
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         if let layout = collectionView?.collectionViewLayout as? PinterestLayout {
-          layout.delegate = self
+            layout.delegate = self
         }
         collectionView?.backgroundColor = .clear
         searchBarSearchButtonClicked(searchBar)
@@ -37,13 +37,12 @@ class ViewController: UIViewController {
         networkClient.sendRequest(queryString: searchBar.text ?? "", pageCount: pageCount) { [weak self] (response, error) in
             guard let weakSelf = self else {return}
             
-            if let models = response as? [ResultModel] {
-                
-                weakSelf.photos.append(contentsOf: models)
-                DispatchQueue.main.async {
-                    self?.collectionView.reloadData()
-                    self?.collectionView.layoutIfNeeded()
-                }
+            guard let models = response as? [ResultModel] else {return}
+            
+            weakSelf.photos.append(contentsOf: models)
+            DispatchQueue.main.async {
+                self?.collectionView.reloadData()
+                self?.collectionView.layoutIfNeeded()
             }
         }
     }
