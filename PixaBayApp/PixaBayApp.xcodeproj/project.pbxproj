@@ -14,6 +14,14 @@
 		3C0B09362454339700DC8BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B09352454339700DC8BD4 /* Assets.xcassets */; };
 		3C0B09392454339700DC8BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B09372454339700DC8BD4 /* LaunchScreen.storyboard */; };
 		3C0B09442454339700DC8BD4 /* PixaBayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09432454339700DC8BD4 /* PixaBayAppTests.swift */; };
+		3C0B096D245437D300DC8BD4 /* NetworkClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B096C245437D300DC8BD4 /* NetworkClientMock.swift */; };
+		3C0B0970245437FE00DC8BD4 /* NetworkClientAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B096E245437FE00DC8BD4 /* NetworkClientAdapter.swift */; };
+		3C0B0971245437FE00DC8BD4 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B096F245437FE00DC8BD4 /* NetworkClient.swift */; };
+		3C0B09732454380A00DC8BD4 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09722454380A00DC8BD4 /* CollectionViewLayout.swift */; };
+		3C0B09752454381B00DC8BD4 /* PhotoCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09742454381B00DC8BD4 /* PhotoCellModel.swift */; };
+		3C0B09772454382400DC8BD4 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B09762454382400DC8BD4 /* Photos.plist */; };
+		3C0B09792454383300DC8BD4 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09782454383300DC8BD4 /* PhotoCell.swift */; };
+		3C0B097B24543D6A00DC8BD4 /* act.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B097A24543D6A00DC8BD4 /* act.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 		3C0B093F2454339700DC8BD4 /* PixaBayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixaBayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0B09432454339700DC8BD4 /* PixaBayAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixaBayAppTests.swift; sourceTree = "<group>"; };
 		3C0B09452454339700DC8BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0B096C245437D300DC8BD4 /* NetworkClientMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClientMock.swift; path = Mocks/NetworkClientMock.swift; sourceTree = "<group>"; };
+		3C0B096E245437FE00DC8BD4 /* NetworkClientAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClientAdapter.swift; path = Adapter/NetworkClientAdapter.swift; sourceTree = "<group>"; };
+		3C0B096F245437FE00DC8BD4 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkClient.swift; path = Adapter/NetworkClient.swift; sourceTree = "<group>"; };
+		3C0B09722454380A00DC8BD4 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewLayout.swift; path = Layout/CollectionViewLayout.swift; sourceTree = "<group>"; };
+		3C0B09742454381B00DC8BD4 /* PhotoCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCellModel.swift; path = Model/PhotoCellModel.swift; sourceTree = "<group>"; };
+		3C0B09762454382400DC8BD4 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		3C0B09782454383300DC8BD4 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCell.swift; path = View/PhotoCell.swift; sourceTree = "<group>"; };
+		3C0B097A24543D6A00DC8BD4 /* act.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = act.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +95,20 @@
 		3C0B092B2454339600DC8BD4 /* PixaBayApp */ = {
 			isa = PBXGroup;
 			children = (
+				3C0B096F245437FE00DC8BD4 /* NetworkClient.swift */,
+				3C0B096E245437FE00DC8BD4 /* NetworkClientAdapter.swift */,
+				3C0B09722454380A00DC8BD4 /* CollectionViewLayout.swift */,
+				3C0B09742454381B00DC8BD4 /* PhotoCellModel.swift */,
 				3C0B092C2454339600DC8BD4 /* AppDelegate.swift */,
 				3C0B092E2454339600DC8BD4 /* SceneDelegate.swift */,
 				3C0B09302454339600DC8BD4 /* ViewController.swift */,
+				3C0B09782454383300DC8BD4 /* PhotoCell.swift */,
 				3C0B09322454339600DC8BD4 /* Main.storyboard */,
+				3C0B09762454382400DC8BD4 /* Photos.plist */,
 				3C0B09352454339700DC8BD4 /* Assets.xcassets */,
 				3C0B09372454339700DC8BD4 /* LaunchScreen.storyboard */,
 				3C0B093A2454339700DC8BD4 /* Info.plist */,
+				3C0B097A24543D6A00DC8BD4 /* act.swift */,
 			);
 			path = PixaBayApp;
 			sourceTree = "<group>";
@@ -93,6 +116,7 @@
 		3C0B09422454339700DC8BD4 /* PixaBayAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				3C0B096C245437D300DC8BD4 /* NetworkClientMock.swift */,
 				3C0B09432454339700DC8BD4 /* PixaBayAppTests.swift */,
 				3C0B09452454339700DC8BD4 /* Info.plist */,
 			);
@@ -183,6 +207,7 @@
 				3C0B09392454339700DC8BD4 /* LaunchScreen.storyboard in Resources */,
 				3C0B09362454339700DC8BD4 /* Assets.xcassets in Resources */,
 				3C0B09342454339600DC8BD4 /* Main.storyboard in Resources */,
+				3C0B09772454382400DC8BD4 /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0B09732454380A00DC8BD4 /* CollectionViewLayout.swift in Sources */,
 				3C0B09312454339600DC8BD4 /* ViewController.swift in Sources */,
+				3C0B097B24543D6A00DC8BD4 /* act.swift in Sources */,
+				3C0B09752454381B00DC8BD4 /* PhotoCellModel.swift in Sources */,
+				3C0B0971245437FE00DC8BD4 /* NetworkClient.swift in Sources */,
+				3C0B09792454383300DC8BD4 /* PhotoCell.swift in Sources */,
 				3C0B092D2454339600DC8BD4 /* AppDelegate.swift in Sources */,
 				3C0B092F2454339600DC8BD4 /* SceneDelegate.swift in Sources */,
+				3C0B0970245437FE00DC8BD4 /* NetworkClientAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0B09442454339700DC8BD4 /* PixaBayAppTests.swift in Sources */,
+				3C0B096D245437D300DC8BD4 /* NetworkClientMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
