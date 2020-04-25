@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E3140049-95F1-40B4-80B9-CF544A3BA158"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEAF0979-F66C-4FEA-94A1-5096890DADE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            condition = "if networkClient.type == NetworkClientMock"
+            continueAfterRunningActions = "No"
+            filePath = "PixaBayApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getThePhotos(pageCount:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CEAF0979-F66C-4FEA-94A1-5096890DADE4 - dad293a863898610"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PixaBayApp.ViewController.getThePhotos(pageCount: Swift.Int) -&gt; ()"
+                  moduleName = "PixaBayApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prateekdasari/PixaBay/PixaBayApp/PixaBayApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "CEAF0979-F66C-4FEA-94A1-5096890DADE4 - 2e832a07896de24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Any&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PixaBayApp.ViewController.getThePhotos(pageCount: Swift.Int) -&gt; ()"
+                  moduleName = "PixaBayApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prateekdasari/PixaBay/PixaBayApp/PixaBayApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C77D0C-2747-42ED-9C22-3EE8B06151B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PixaBayApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getThePhotos(pageCount:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

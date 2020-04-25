@@ -16,7 +16,7 @@ class ViewController: UIViewController {
       @IBOutlet private weak var searchBar: UISearchBar!
     
     var photos = [ResultModel]()
-    var networkClient = NetworkClient()
+    var networkClient: NetworkClientAdapter = NetworkClient()
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
       return .lightContent
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     func getThePhotos(pageCount:Int) {
         
-        networkClient.sendRequest(queryString: searchBar.text ?? "") { [weak self] (response, error) in
+        networkClient.sendRequest(queryString: searchBar.text ?? "", pageCount: pageCount) { [weak self] (response, error) in
             guard let weakSelf = self else {return}
             
             if let models = response as? [ResultModel] {

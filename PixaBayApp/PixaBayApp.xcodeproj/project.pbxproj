@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333F642BE91E04F5425915F9 /* Pods_PixaBayAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0BBD9C3C7C410CB9E8C6E0 /* Pods_PixaBayAppTests.framework */; };
 		3C0B092D2454339600DC8BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B092C2454339600DC8BD4 /* AppDelegate.swift */; };
 		3C0B092F2454339600DC8BD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B092E2454339600DC8BD4 /* SceneDelegate.swift */; };
 		3C0B09312454339600DC8BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09302454339600DC8BD4 /* ViewController.swift */; };
@@ -22,6 +23,16 @@
 		3C0B09772454382400DC8BD4 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B09762454382400DC8BD4 /* Photos.plist */; };
 		3C0B09792454383300DC8BD4 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09782454383300DC8BD4 /* PhotoCell.swift */; };
 		3C0B097B24543D6A00DC8BD4 /* act.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B097A24543D6A00DC8BD4 /* act.swift */; };
+		3C0B097D2454452900DC8BD4 /* ResponseModel+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B097C2454452900DC8BD4 /* ResponseModel+Stub.swift */; };
+		3C0B09802454465A00DC8BD4 /* Apple.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B097F2454465A00DC8BD4 /* Apple.json */; };
+		3C0B09822454468000DC8BD4 /* ViewController+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B09812454468000DC8BD4 /* ViewController+Stub.swift */; };
+		3C0B098424544B8A00DC8BD4 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098324544B8A00DC8BD4 /* JSONHelper.swift */; };
+		3C0B098624544D7D00DC8BD4 /* ViewControlerLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098524544D7D00DC8BD4 /* ViewControlerLifeCycle.swift */; };
+		3C0B098824544F8E00DC8BD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098724544F8E00DC8BD4 /* Constants.swift */; };
+		3C0B098924544F8E00DC8BD4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098724544F8E00DC8BD4 /* Constants.swift */; };
+		3C0B098B24544FD100DC8BD4 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B098A24544FD100DC8BD4 /* ViewControllerTests.swift */; };
+		3C0B098C2454554A00DC8BD4 /* Apple.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B097F2454465A00DC8BD4 /* Apple.json */; };
+		E1A8AF0AF0391A713125CCAE /* Pods_PixaBayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C97E77B1F38B8708BD1A74C /* Pods_PixaBayApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AB46EFFFE08B98602F92151 /* Pods-PixaBayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayApp.debug.xcconfig"; path = "Target Support Files/Pods-PixaBayApp/Pods-PixaBayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0C97E77B1F38B8708BD1A74C /* Pods_PixaBayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixaBayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEAE18D538694223BB52A92 /* Pods-PixaBayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayApp.release.xcconfig"; path = "Target Support Files/Pods-PixaBayApp/Pods-PixaBayApp.release.xcconfig"; sourceTree = "<group>"; };
+		218100BECE844D0936EA5275 /* Pods-PixaBayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayAppTests.release.xcconfig"; path = "Target Support Files/Pods-PixaBayAppTests/Pods-PixaBayAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C0B09292454339600DC8BD4 /* PixaBayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixaBayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0B092C2454339600DC8BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C0B092E2454339600DC8BD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +69,15 @@
 		3C0B09762454382400DC8BD4 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 		3C0B09782454383300DC8BD4 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCell.swift; path = View/PhotoCell.swift; sourceTree = "<group>"; };
 		3C0B097A24543D6A00DC8BD4 /* act.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = act.swift; sourceTree = "<group>"; };
+		3C0B097C2454452900DC8BD4 /* ResponseModel+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResponseModel+Stub.swift"; sourceTree = "<group>"; };
+		3C0B097F2454465A00DC8BD4 /* Apple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apple.json; sourceTree = "<group>"; };
+		3C0B09812454468000DC8BD4 /* ViewController+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Stub.swift"; sourceTree = "<group>"; };
+		3C0B098324544B8A00DC8BD4 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
+		3C0B098524544D7D00DC8BD4 /* ViewControlerLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlerLifeCycle.swift; sourceTree = "<group>"; };
+		3C0B098724544F8E00DC8BD4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3C0B098A24544FD100DC8BD4 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		A2971294568B9207D20C54E8 /* Pods-PixaBayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PixaBayAppTests/Pods-PixaBayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0BBD9C3C7C410CB9E8C6E0 /* Pods_PixaBayAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixaBayAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A8AF0AF0391A713125CCAE /* Pods_PixaBayApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,18 +93,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333F642BE91E04F5425915F9 /* Pods_PixaBayAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BDE05423675E46774E5DB75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C97E77B1F38B8708BD1A74C /* Pods_PixaBayApp.framework */,
+				DE0BBD9C3C7C410CB9E8C6E0 /* Pods_PixaBayAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C0B09202454339600DC8BD4 = {
 			isa = PBXGroup;
 			children = (
 				3C0B092B2454339600DC8BD4 /* PixaBayApp */,
 				3C0B09422454339700DC8BD4 /* PixaBayAppTests */,
 				3C0B092A2454339600DC8BD4 /* Products */,
+				4BCCA3FE65FDF5F1AE51EBF9 /* Pods */,
+				2BDE05423675E46774E5DB75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +146,7 @@
 				3C0B09372454339700DC8BD4 /* LaunchScreen.storyboard */,
 				3C0B093A2454339700DC8BD4 /* Info.plist */,
 				3C0B097A24543D6A00DC8BD4 /* act.swift */,
+				3C0B098724544F8E00DC8BD4 /* Constants.swift */,
 			);
 			path = PixaBayApp;
 			sourceTree = "<group>";
@@ -116,11 +154,28 @@
 		3C0B09422454339700DC8BD4 /* PixaBayAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				3C0B098324544B8A00DC8BD4 /* JSONHelper.swift */,
+				3C0B097F2454465A00DC8BD4 /* Apple.json */,
 				3C0B096C245437D300DC8BD4 /* NetworkClientMock.swift */,
 				3C0B09432454339700DC8BD4 /* PixaBayAppTests.swift */,
 				3C0B09452454339700DC8BD4 /* Info.plist */,
+				3C0B097C2454452900DC8BD4 /* ResponseModel+Stub.swift */,
+				3C0B09812454468000DC8BD4 /* ViewController+Stub.swift */,
+				3C0B098524544D7D00DC8BD4 /* ViewControlerLifeCycle.swift */,
+				3C0B098A24544FD100DC8BD4 /* ViewControllerTests.swift */,
 			);
 			path = PixaBayAppTests;
+			sourceTree = "<group>";
+		};
+		4BCCA3FE65FDF5F1AE51EBF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB46EFFFE08B98602F92151 /* Pods-PixaBayApp.debug.xcconfig */,
+				1EEAE18D538694223BB52A92 /* Pods-PixaBayApp.release.xcconfig */,
+				A2971294568B9207D20C54E8 /* Pods-PixaBayAppTests.debug.xcconfig */,
+				218100BECE844D0936EA5275 /* Pods-PixaBayAppTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0B09482454339700DC8BD4 /* Build configuration list for PBXNativeTarget "PixaBayApp" */;
 			buildPhases = (
+				1BE663287DC8401E36992D19 /* [CP] Check Pods Manifest.lock */,
 				3C0B09252454339600DC8BD4 /* Sources */,
 				3C0B09262454339600DC8BD4 /* Frameworks */,
 				3C0B09272454339600DC8BD4 /* Resources */,
@@ -147,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0B094B2454339700DC8BD4 /* Build configuration list for PBXNativeTarget "PixaBayAppTests" */;
 			buildPhases = (
+				210B8B1341D034CFCC4F0E95 /* [CP] Check Pods Manifest.lock */,
 				3C0B093B2454339700DC8BD4 /* Sources */,
 				3C0B093C2454339700DC8BD4 /* Frameworks */,
 				3C0B093D2454339700DC8BD4 /* Resources */,
+				BD8BED9F62DE12411496E76E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +264,7 @@
 			files = (
 				3C0B09392454339700DC8BD4 /* LaunchScreen.storyboard in Resources */,
 				3C0B09362454339700DC8BD4 /* Assets.xcassets in Resources */,
+				3C0B098C2454554A00DC8BD4 /* Apple.json in Resources */,
 				3C0B09342454339600DC8BD4 /* Main.storyboard in Resources */,
 				3C0B09772454382400DC8BD4 /* Photos.plist in Resources */,
 			);
@@ -215,10 +274,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0B09802454465A00DC8BD4 /* Apple.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE663287DC8401E36992D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixaBayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		210B8B1341D034CFCC4F0E95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixaBayAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8BED9F62DE12411496E76E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixaBayAppTests/Pods-PixaBayAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PixaBayAppTests/Pods-PixaBayAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PixaBayAppTests/Pods-PixaBayAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C0B09252454339600DC8BD4 /* Sources */ = {
@@ -230,6 +354,7 @@
 				3C0B097B24543D6A00DC8BD4 /* act.swift in Sources */,
 				3C0B09752454381B00DC8BD4 /* PhotoCellModel.swift in Sources */,
 				3C0B0971245437FE00DC8BD4 /* NetworkClient.swift in Sources */,
+				3C0B098824544F8E00DC8BD4 /* Constants.swift in Sources */,
 				3C0B09792454383300DC8BD4 /* PhotoCell.swift in Sources */,
 				3C0B092D2454339600DC8BD4 /* AppDelegate.swift in Sources */,
 				3C0B092F2454339600DC8BD4 /* SceneDelegate.swift in Sources */,
@@ -242,7 +367,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0B09442454339700DC8BD4 /* PixaBayAppTests.swift in Sources */,
+				3C0B097D2454452900DC8BD4 /* ResponseModel+Stub.swift in Sources */,
 				3C0B096D245437D300DC8BD4 /* NetworkClientMock.swift in Sources */,
+				3C0B098624544D7D00DC8BD4 /* ViewControlerLifeCycle.swift in Sources */,
+				3C0B098924544F8E00DC8BD4 /* Constants.swift in Sources */,
+				3C0B098424544B8A00DC8BD4 /* JSONHelper.swift in Sources */,
+				3C0B098B24544FD100DC8BD4 /* ViewControllerTests.swift in Sources */,
+				3C0B09822454468000DC8BD4 /* ViewController+Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +523,7 @@
 		};
 		3C0B09492454339700DC8BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB46EFFFE08B98602F92151 /* Pods-PixaBayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -409,6 +541,7 @@
 		};
 		3C0B094A2454339700DC8BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEAE18D538694223BB52A92 /* Pods-PixaBayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -426,6 +559,7 @@
 		};
 		3C0B094C2454339700DC8BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2971294568B9207D20C54E8 /* Pods-PixaBayAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,6 +581,7 @@
 		};
 		3C0B094D2454339700DC8BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218100BECE844D0936EA5275 /* Pods-PixaBayAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
